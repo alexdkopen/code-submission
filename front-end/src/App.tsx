@@ -6,7 +6,6 @@ import { ProtectedRoute } from './components/ProtectedRoute';
 import { useAuth } from './contexts/AuthContext';
 import './App.css'
 
-// Component to handle catch-all routes
 function CatchAllRoute() {
   const { user } = useAuth();
   return <Navigate to={user ? "/customers" : "/login"} replace />;

@@ -23,13 +23,11 @@ export function CustomersPage() {
 
   const handleCustomerCreated = (customer: Customer) => {
     setShowCustomerForm(false);
-    // Refresh the customer list
     window.location.reload();
   };
 
   const handleMatterCreated = (matter: Matter) => {
     setShowMatterForm(false);
-    // Trigger a refresh of the matter list
     setRefreshMatters(prev => prev + 1);
   };
 
@@ -102,7 +100,7 @@ export function CustomersPage() {
               <div className="bg-gray-800 shadow sm:rounded-lg p-6">
                 <MatterList 
                   customerId={selectedCustomer.id.toString()} 
-                  key={refreshMatters} // This will force MatterList to remount when refreshMatters changes
+                  key={refreshMatters}
                 />
               </div>
             </div>
