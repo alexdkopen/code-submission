@@ -8,7 +8,7 @@ All created endpoints can be seen in [postman-collection-coding-test.json](postm
 
 ## Database Setup
 
-1. Install PostgreSQL (if not already installed):
+1. Install PostgreSQL:
    ```bash
    # For Ubuntu/Debian
    sudo apt update
