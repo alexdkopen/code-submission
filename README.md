@@ -1,21 +1,10 @@
 # Customer and Matter Management System
 
-A RESTful API for managing customers and their associated matters, built with Node.js, Express, TypeScript, and PostgreSQL.
+## FE Setup
+Please see [front-end/README.MD](front-end/README.MD)
 
-## Features
-
-- JWT-based authentication
-- Customer management (CRUD operations)
-- Matter management for customers
-- RESTful API design
-- TypeScript support
-- PostgreSQL database with Prisma ORM
-
-## Prerequisites
-
-- Node.js (v14 or higher)
-- PostgreSQL database
-- npm or yarn package manager
+## Postman Collection
+All created endpoints can be seen in [postman-collection-coding-test.json](postman-collection-coding-test.json)
 
 ## Database Setup
 
@@ -67,14 +56,8 @@ A RESTful API for managing customers and their associated matters, built with No
 
 ## Running the Application
 
-Development mode:
 ```bash
 npm run dev
-```
-
-Production mode:
-```bash
-npm start
 ```
 
 ## API Endpoints
@@ -113,21 +96,16 @@ The API uses a consistent error response format:
 - Input validation and sanitization
 - Error handling middleware
 
-## Troubleshooting
+## Screenshots
 
-If you encounter any database connection issues:
-
-1. Verify PostgreSQL is running:
-   ```bash
-   sudo systemctl status postgresql
-   ```
-
-2. Check database connection:
-   ```bash
-   psql -U customer_matters_user -d customer_matters_db -h localhost
-   ```
-
-3. Verify database user permissions:
-   ```bash
-   sudo -u postgres psql -c "\du"
-   ``` 
+![Screenshot 1](/screenshots/s1.png)
+![Screenshot 2](/screenshots/s2.png)
+![Screenshot 3](/screenshots/s3.png)
+![Screenshot 4](/screenshots/s4.png)
+![Screenshot 5](/screenshots/s5.png)
+![Screenshot 6](/screenshots/s6.png)
+![Screenshot 7](/screenshots/s7.png)
+![Screenshot 8](/screenshots/s8.png)
+![Screenshot 9](/screenshots/s9.png)
+![Screenshot 10](/screenshots/s10.png)
+![Screenshot 11](/screenshots/s11.png)
