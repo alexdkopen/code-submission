@@ -1,7 +1,7 @@
 # Customer and Matter Management System
 
 ## FE Setup
-Please see [/front-end/README.MD](/front-end/README.MD)
+Please see /front-end/README.MD
 
 ## Postman Collection
 All created endpoints can be seen in [postman-collection-coding-test.json](postman-collection-coding-test.json)
